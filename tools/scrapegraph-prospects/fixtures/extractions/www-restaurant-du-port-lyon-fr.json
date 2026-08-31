@@ -1,0 +1,32 @@
+{
+  "company_name": "Restaurant du Port",
+  "activity_summary": "Restaurant de bord de Saône, 120 couverts, terrasse couverte.",
+  "sector_guess": "restaurant",
+  "phone": "04 78 42 19 60",
+  "email": null,
+  "street": "3 quai Rambaud",
+  "postal_code": "69002",
+  "city": "Lyon",
+  "country": "France",
+  "employees_hint": "18 salariés",
+  "sites_count_hint": null,
+  "is_chain_member": false,
+  "glazing_mentions": [
+    "Véranda vitrée ouverte toute l'année"
+  ],
+  "decision_makers": [
+    {
+      "full_name": "Sophie Ferrand",
+      "role": "Gérante",
+      "email": null,
+      "phone": null
+    }
+  ],
+  "signals": [
+    {
+      "type": "plainte_thermique",
+      "evidence": "La véranda devient difficile à vivre lors des fortes chaleurs.",
+      "date_hint": "2025"
+    }
+  ]
+}

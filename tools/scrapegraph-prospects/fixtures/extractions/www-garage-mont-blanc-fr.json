@@ -1,0 +1,32 @@
+{
+  "company_name": "Garage Mont-Blanc Automobiles",
+  "activity_summary": "Concession automobile multimarque avec showroom et atelier carrosserie.",
+  "sector_guess": "concession automobile",
+  "phone": "04.50.91.77.30",
+  "email": "contact@garage-mont-blanc.fr",
+  "street": "410 route de Genève",
+  "postal_code": "74100",
+  "city": "Annemasse",
+  "country": "France",
+  "employees_hint": "équipe de 12 personnes",
+  "sites_count_hint": null,
+  "is_chain_member": false,
+  "glazing_mentions": [
+    "Notre showroom de 600 m² entièrement vitré"
+  ],
+  "decision_makers": [
+    {
+      "full_name": null,
+      "role": "Service commercial",
+      "email": null,
+      "phone": null
+    }
+  ],
+  "signals": [
+    {
+      "type": "extension_agrandissement",
+      "evidence": "Ouverture d'un second hall d'exposition vitré prévue en septembre.",
+      "date_hint": "septembre 2026"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "company_name": "Ibis Annecy Centre",
+  "activity_summary": "Hôtel de chaîne 3 étoiles du groupe Accor, 84 chambres.",
+  "sector_guess": "hôtel",
+  "phone": "04 50 45 43 21",
+  "email": null,
+  "street": "8 rue de la Gare",
+  "postal_code": "74000",
+  "city": "Annecy",
+  "country": "France",
+  "employees_hint": "22 salariés",
+  "sites_count_hint": "réseau national",
+  "is_chain_member": true,
+  "glazing_mentions": [
+    "Façade vitrée sur rue"
+  ],
+  "decision_makers": [],
+  "signals": [
+    {
+      "type": "renovation_recente",
+      "evidence": "Chambres rénovées au standard Ibis 2025.",
+      "date_hint": "2025"
+    },
+    {
+      "type": "plainte_thermique",
+      "evidence": "Chambres côté sud sensibles à la chaleur en journée.",
+      "date_hint": null
+    }
+  ]
+}

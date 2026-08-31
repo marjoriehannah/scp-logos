@@ -1,0 +1,32 @@
+{
+  "company_name": "Clinique des Alpes",
+  "activity_summary": "Clinique privée pluridisciplinaire, 90 lits, spécialités chirurgie et imagerie.",
+  "sector_guess": "clinique",
+  "phone": "04 50 33 22 11",
+  "email": null,
+  "street": "5 avenue du Parmelan",
+  "postal_code": "74000",
+  "city": "Annecy",
+  "country": "France",
+  "employees_hint": "60 professionnels de santé",
+  "sites_count_hint": null,
+  "is_chain_member": false,
+  "glazing_mentions": [
+    "Le hall d'accueil bénéficie d'une grande verrière"
+  ],
+  "decision_makers": [
+    {
+      "full_name": "Bertrand Molinier",
+      "role": "Directeur des services techniques",
+      "email": null,
+      "phone": null
+    }
+  ],
+  "signals": [
+    {
+      "type": "besoin_confidentialite",
+      "evidence": "Les box de consultation en rez-de-chaussée donnent directement sur le parking visiteurs.",
+      "date_hint": null
+    }
+  ]
+}

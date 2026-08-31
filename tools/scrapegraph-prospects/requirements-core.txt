@@ -1,0 +1,6 @@
+# Sous-ensemble sans LLM : permet de faire tourner le mode --provider fixtures
+# et toute la suite de tests sans installer langchain ni playwright.
+openpyxl>=3.1
+PyYAML>=6.0
+pydantic>=2.9
+pytest>=8.0

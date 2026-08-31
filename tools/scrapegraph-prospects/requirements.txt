@@ -1,0 +1,11 @@
+# Cœur du prototype (scoring + export xlsx) — suffit pour le mode fixtures.
+openpyxl>=3.1
+PyYAML>=6.0
+pydantic>=2.9
+
+# Extraction réelle (mode ollama / openai). Python >= 3.12 obligatoire.
+# Après installation : playwright install chromium
+scrapegraphai==2.2.2
+
+# Tests
+pytest>=8.0

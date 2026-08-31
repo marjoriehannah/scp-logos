@@ -1,0 +1,38 @@
+{
+  "company_name": "Hôtel Lac Panorama",
+  "activity_summary": "Hôtel 4 étoiles de 62 chambres avec restaurant panoramique au bord du lac Léman.",
+  "sector_guess": "hôtel",
+  "phone": "04 50 26 41 18",
+  "email": "Contact@Hotel-Lac-Panorama.FR",
+  "street": "12 quai du Lac",
+  "postal_code": "74500",
+  "city": "évian-les-bains",
+  "country": "France",
+  "employees_hint": "28 collaborateurs",
+  "sites_count_hint": null,
+  "is_chain_member": false,
+  "glazing_mentions": [
+    "Nos chambres côté lac disposent de baies vitrées du sol au plafond",
+    "Le restaurant panoramique est entièrement vitré sur trois façades"
+  ],
+  "decision_makers": [
+    {
+      "full_name": "Camille Reverdy",
+      "role": "Directrice de l'établissement",
+      "email": "direction@hotel-lac-panorama.fr",
+      "phone": null
+    }
+  ],
+  "signals": [
+    {
+      "type": "renovation_recente",
+      "evidence": "Rénovation complète de l'aile sud et du restaurant panoramique livrée au printemps 2026.",
+      "date_hint": "printemps 2026"
+    },
+    {
+      "type": "plainte_thermique",
+      "evidence": "Les chambres exposées plein sud peuvent être chaudes en été, la climatisation est en cours de renforcement.",
+      "date_hint": "été 2025"
+    }
+  ]
+}

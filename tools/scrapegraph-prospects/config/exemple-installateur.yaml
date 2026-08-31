@@ -1,0 +1,78 @@
+# EXEMPLE — spec d'installateur au format `scp-client-spec`.
+# Les vraies specs des 13 installateurs vivent hors de ce dépôt : copier ce
+# fichier, remplacer les valeurs, ne jamais committer de données contractuelles.
+
+installer:
+  id: "exemple-sa"
+  name: "Exemple SA"
+  website: "https://www.exemple.fr"
+  contact_scp:
+    name: "À compléter"
+    email: "a-completer@exemple.fr"
+    phone: "+33100000000"
+  contract:
+    start_date: "2026-01-15"
+    end_date: null
+    termination_reason: null
+    rdv_per_month_target: 10
+    rdv_relevant_threshold_pct: 70
+    pay_per_rdv_eur: 100
+  status: "active"
+  profile_type: "solo_reseau"
+
+zone:
+  countries: ["FR"]
+  cantons_ch: []
+  departments_fr: ["74", "73", "01"]
+  cities_priority: ["Annecy", "Chambéry", "Thonon-les-Bains", "Évian-les-Bains"]
+  max_distance_km_from_hq: 80
+
+products:
+  primary: ["solaire", "anti-uv"]
+  secondary: ["securite", "confidentialite", "decoratif"]
+  not_offered: []
+  brands_distributed: ["3M", "LLumar", "Solar Screen"]
+
+target_segments:
+  preferred_sectors:
+    - "hotellerie"
+    - "restaurants"
+    - "concessions-auto"
+    - "cliniques"
+    - "creches"
+    - "sites-industriels"
+  company_size:
+    min_employees: 5
+    max_employees: 250
+    sweet_spot: "10-60"
+  building_types: ["bureau-tertiaire", "vitrine-commerciale", "showroom", "hotel"]
+
+exclusions:
+  - "particuliers (B2C)"
+
+competitors_to_avoid: []
+
+calling_constraints:
+  best_call_hours: "09:00-11:30 et 14:00-16:30"
+  worst_days: ["lundi matin", "vendredi après-midi"]
+  preferred_language: "fr"
+  german_accepted: false
+
+scoring_weights:
+  recent_move: 3
+  thermal_complaint: 3
+  privacy_visible: 2
+  recent_renovation: 2
+  preferred_sector_match: 1
+  size_in_range: 1
+  threshold_chaud: 5
+  threshold_tiede: 2
+
+historical_calibration:
+  total_rdv_delivered: 0
+  rdv_judged_relevant_pct: 0
+  best_signals: []
+  worst_signals: []
+  last_calibration_date: null
+
+notes: "Spec d'exemple livrée avec le prototype ScrapeGraphAI."
